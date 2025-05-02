@@ -344,7 +344,7 @@ class _LlmChatViewState extends State<LlmChatView>
         if (widget.onCancelCallback != null) {
           widget.onCancelCallback!(context);
         } else {
-          AdaptiveSnackBar.show(context, 'LLM operation canceled by user');
+          AdaptiveSnackBar.show(context, '취소되었습니다.');
         }
         break;
       case LlmFailureException():
