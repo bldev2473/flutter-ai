@@ -53,7 +53,7 @@ final isMobile = UniversalPlatform.isAndroid || UniversalPlatform.isIOS;
 Future<void> copyToClipboard(BuildContext context, String text) async {
   await Clipboard.setData(ClipboardData(text: text));
   if (context.mounted) {
-    AdaptiveSnackBar.show(context, 'Message copied to clipboard');
+    AdaptiveSnackBar.show(context, '클립보드에 복사되었습니다.');
   }
 }
 
