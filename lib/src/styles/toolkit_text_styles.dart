@@ -13,7 +13,7 @@ abstract final class ToolkitTextStyles {
   /// Large display text style.
   ///
   /// Used for the most prominent text elements, typically headers or titles.
-  static final TextStyle display = GoogleFonts.roboto(
+  static final TextStyle display = GoogleFonts.notoSansKr(
     color: ToolkitColors.enabledText,
     fontSize: 32,
     fontWeight: FontWeight.w400,
@@ -22,7 +22,7 @@ abstract final class ToolkitTextStyles {
   /// Primary heading text style.
   ///
   /// Used for main section headings or important subheadings.
-  static final TextStyle heading1 = GoogleFonts.roboto(
+  static final TextStyle heading1 = GoogleFonts.notoSansKr(
     color: ToolkitColors.enabledText,
     fontSize: 24,
     fontWeight: FontWeight.w400,
@@ -31,7 +31,7 @@ abstract final class ToolkitTextStyles {
   /// Secondary heading text style.
   ///
   /// Used for subsection headings or less prominent titles.
-  static final TextStyle heading2 = GoogleFonts.roboto(
+  static final TextStyle heading2 = GoogleFonts.notoSansKr(
     color: ToolkitColors.enabledText,
     fontSize: 20,
     fontWeight: FontWeight.w400,
@@ -40,7 +40,7 @@ abstract final class ToolkitTextStyles {
   /// Primary body text style.
   ///
   /// Used for the main content text in the application.
-  static final TextStyle body1 = GoogleFonts.roboto(
+  static final TextStyle body1 = GoogleFonts.notoSansKr(
     color: ToolkitColors.enabledText,
     fontSize: 16,
     fontWeight: FontWeight.w400,
@@ -49,7 +49,7 @@ abstract final class ToolkitTextStyles {
   /// Code text style.
   ///
   /// Used for displaying code snippets or monospaced text.
-  static final TextStyle code = GoogleFonts.robotoMono(
+  static final TextStyle code = GoogleFonts.notoSansKrMono(
     color: ToolkitColors.enabledText,
     fontSize: 16,
     fontWeight: FontWeight.w400,
@@ -58,7 +58,7 @@ abstract final class ToolkitTextStyles {
   /// Secondary body text style.
   ///
   /// Used for less prominent body text or supporting information.
-  static final TextStyle body2 = GoogleFonts.roboto(
+  static final TextStyle body2 = GoogleFonts.notoSansKr(
     color: ToolkitColors.enabledText,
     fontSize: 14,
     fontWeight: FontWeight.w400,
@@ -67,7 +67,7 @@ abstract final class ToolkitTextStyles {
   /// Tooltip text style.
   ///
   /// Used for the text of tooltips.
-  static final TextStyle tooltip = GoogleFonts.roboto(
+  static final TextStyle tooltip = GoogleFonts.notoSansKr(
     color: ToolkitColors.tooltipText.withAlpha(230),
     fontSize: 14,
     fontWeight: FontWeight.w400,
@@ -76,7 +76,7 @@ abstract final class ToolkitTextStyles {
   /// Filename text style.
   ///
   /// Used for the text of file attachments.
-  static final TextStyle filename = GoogleFonts.roboto(
+  static final TextStyle filename = GoogleFonts.notoSansKr(
     color: ToolkitColors.enabledText,
     fontSize: 14,
     fontWeight: FontWeight.w400,
@@ -85,7 +85,7 @@ abstract final class ToolkitTextStyles {
   /// File type text style.
   ///
   /// Used for displaying the file type or MIME type of attachments.
-  static final TextStyle filetype = GoogleFonts.roboto(
+  static final TextStyle filetype = GoogleFonts.notoSansKr(
     color: ToolkitColors.hintText,
     fontSize: 14,
     fontWeight: FontWeight.w400,
@@ -94,7 +94,7 @@ abstract final class ToolkitTextStyles {
   /// Label text style.
   ///
   /// Used for small labels, captions, or helper text.
-  static final TextStyle label = GoogleFonts.roboto(
+  static final TextStyle label = GoogleFonts.notoSansKr(
     color: ToolkitColors.enabledText,
     fontSize: 12,
     fontWeight: FontWeight.w400,

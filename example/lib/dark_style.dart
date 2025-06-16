@@ -71,7 +71,7 @@ ChatInputStyle _darkChatInputStyle() {
     textStyle: _invertTextStyle(style.textStyle),
     // inversion doesn't look great here
     // hintStyle: invertTextStyle(style.hintStyle),
-    hintStyle: GoogleFonts.roboto(
+    hintStyle: GoogleFonts.notoSansKr(
       color: _greyBackground,
       fontSize: 14,
       fontWeight: FontWeight.w400,
