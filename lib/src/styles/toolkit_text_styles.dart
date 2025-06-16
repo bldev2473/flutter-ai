@@ -49,7 +49,7 @@ abstract final class ToolkitTextStyles {
   /// Code text style.
   ///
   /// Used for displaying code snippets or monospaced text.
-  static final TextStyle code = GoogleFonts.notoSansKrMono(
+  static final TextStyle code = GoogleFonts.notoSansKr(
     color: ToolkitColors.enabledText,
     fontSize: 16,
     fontWeight: FontWeight.w400,
